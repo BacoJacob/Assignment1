@@ -30,5 +30,24 @@ p {
   font-family: Futura;
   font-size: 20px;
 }
-
-
+table, th, td{
+  border: 1px solid black;
+}
+#fallacy {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#fallacy td, #fallacy th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#fallacy tr:nth-child(even){background-color: #f2f2f2;}
+#fallacy tr:hover{background-color: #ddd;}
+#fallacy th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: purple;
+  color: white;
+}
