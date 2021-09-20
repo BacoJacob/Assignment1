@@ -1,12 +1,12 @@
 #bannerimage {
   width: 100%;
-  background-image: url("banner.jpg");
+  background-image: url("images/banner.jpg");
   height: 100px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-ul {
+ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -37,17 +37,4 @@ table, th, td{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border-collapse: collapse;
   width: 100%;
-}
-#fallacy td, #fallacy th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-#fallacy tr:nth-child(even){background-color: #f2f2f2;}
-#fallacy tr:hover{background-color: #ddd;}
-#fallacy th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: purple;
-  color: white;
 }
